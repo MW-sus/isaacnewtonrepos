@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscribe</title>
+    <link rel="stylesheet" href="includes/fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="stylesheet" href="includes/fontawesome-free-6.5.1-web/css/all.min.css">
+    <script src="includes/fontawesome-free-6.5.1-web/js/all.js"></script>
+    <script src="includes/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+</head>
+<body>
+    <center>
+    <div id="main">
+        <br><br><br><br><br><br>
+        <h3>Subscribe To Our News Letter And <br><br><br>Grab <b>5% Off</b> Your First Order</h3><br><br>
+        <input type="email" placeholder="Your email" id="email"><input type="button" value="subscribe" id="butt">
+    
+    </div>
+</center>
+
+
+
+    <div id="bottom">
+        <hr>
+        <div class="btitem">
+            <span id="u">FURNI<span id="g">SITE</span> <br></span><br>
+        
+        </div>
+        <div class="btitem">
+            <span  id="p">
+                Follow us on <br>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-x-twitter"></i>
+                <i class="fab fa-facebook"></i>
+
+            </span> <br>
+            <span>
+                Payment Method <br>
+                <img src="includes/card.png" alt="mastercard" class="payment">
+                <img src="includes/visa.png" alt="visa" class="payment">
+                <img src="includes/paypal.png" alt="paypal" class="payment">
+            </span>
+        </div>
+        <div class="btitem">
+            <h3>
+                Company
+            </h3>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+        <div class="btitem">
+            <h3>Help</h3>
+            <p>Return</p>
+            <p>Exchange</p>
+            <p>Shopping</p>
+        </div>
+    </div>
+ 
+</body>
+<style>
+
+    .payment{
+        width: 20px;
+        padding: 5px;
+        height: 15px;
+    }
+    #g{
+        color: rgb(228, 232, 6);
+    }
+    #u{
+        margin-bottom: 82px;
+        display: block;
+    }
+    #p{
+    margin-bottom:35px;
+    display: inline-block;
+    }
+    .bg-image {
+    background-image: url("includes/free-website-background-03\ \(1\).jpg");
+    height: 100%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #main{
+        z-index: 2;
+        top: 30px;
+        left: 35%;
+        position: absolute;
+    }
+    body{
+        height: 100%;
+        background-image: url("includes/free-website-background-03\ \(1\).jpg");  
+        overflow: hidden;
+    } html{
+        height: 100%;
+        
+    }
+    #bottom{
+        z-index: 2;
+        bottom: 1px;
+        position: absolute;
+        width: 100%;
+    }
+    .btitem{
+        display: inline-block;
+        width: 250px;
+    }
+    #butt{
+        width: 100px;
+        height: 34px;
+        border-radius: 17px;
+        background-color: rgb(18, 0, 60);
+        color: rgb(56, 85, 215);
+        transition: 0.7s;
+    }
+    #butt:hover{
+        box-shadow: 1px 1px 5px 5px rgb(0, 0, 0);
+    }
+    #email{
+        width: 300px;
+        height: 25px;
+        border-radius: 17px;
+        margin-right: 10px;
+        padding: 5px;
+        transition: 0.3s;
+        outline: none;
+        border-top: 0px solid;
+        border-bottom: 3px solid;
+    }
+    #email:focus{
+        box-shadow: 1px 1px 5px 5px rgb(62, 62, 62);
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(186, 186, 186));
+
+    }
+</style>
+</html>
